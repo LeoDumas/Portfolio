@@ -1,0 +1,82 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+
+/* Barre de navigation */
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 2%;
+}
+
+#titre{
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+#nav{
+    list-style-type: none;
+    display: flex;
+}
+
+#navLink{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#navLink a{
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.3s ease 0s;
+}
+
+#navLink a:hover{
+    color: #53F5E2;
+}
+
+/* Section début */
+.accueil{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textAccueil{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+.accueil h1{
+    font-size: 52px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.accueil h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#p1 a, #p2 a{
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: auto ;
+}
+
+#p1{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+#p2{
+    font-size: 20px;
+}
