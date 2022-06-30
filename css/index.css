@@ -68,7 +68,7 @@ header{
     border-radius: 5px;
     width: 20%;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #description{
@@ -79,6 +79,7 @@ header{
     position: absolute;
     bottom: 0px;
     width: 100%;
+    margin-bottom: 45px;
 }
 
 #descText{
@@ -98,4 +99,44 @@ header{
 #description img{
     margin-left: 40px;
     margin-right: 40px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#pdfBtn:hover{
+    cursor: pointer;
+}
+
+#pdfBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+
+   appearance: none; background-color: #FCFCFD; border-radius: 4px; border-width: 0; box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; box-sizing: border-box; color: #36395A; cursor: pointer; font-family: "JetBrains Mono",monospace; height: 48px; line-height: 1; list-style: none; overflow: hidden; padding-left: 16px; padding-right: 16px; text-align: left; text-decoration: none; transition: box-shadow .15s,transform .15s; user-select: none; -webkit-user-select: none; touch-action: manipulation; white-space: nowrap; will-change: box-shadow,transform; font-size: 18px; } .button-30:focus { box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset; } .button-30:hover { box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset; transform: translateY(-2px); } .button-30:active { box-shadow: #D6D6E7 0 3px 7px inset; transform: translateY(2px);
+}
+
+#pdfBtn p{
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 2px;
+    background-color: transparent;
+    color: black;
+}
+
+#btnIcon{
+    vertical-align: middle;
+    margin-left: 2px;
+    margin-right: 5px;
+    background-color: transparent;
 }
