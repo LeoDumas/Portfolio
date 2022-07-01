@@ -8,40 +8,41 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <!-- Bar de navigation -->
+    <nav>
+        <p class="logo">LEO DUMAS</p>
+        <div class="onglets">
+            <p class="link" id="currentLink">Accueil</p>
+            <p class="link">Projets</p>
+            <p class="link">Informations</p>
+            <p class="link">Contacts</p>
+        </div>
+    </nav>
+    <!-- Bar de navigation -->
+    
+    <!-- Header -->
     <header>
-        <a href="" id="logo">Léo Dumas</a>
-
-        <ul id="nav">
-            <li id="nav_items">
-                <a href="">Projets</a>
-            </li>
-            <li id="nav_items">
-                <a href="">Informations</a>
-            </li>
-            <li id="nav_items">
-                <a href="">Contact</a>
-            </li>
-        </ul>
-    </header>
-
-    <section class="accueil">
-        <h1>BIENVENUE SUR MON PORTFOLIO</h1>
-        <hr id="separateur"></hr>
-        <p>VOUS POUVEZ ICI RETROUVER MES PROJETS OU EN APPRENDRE PLUS SUR MOI</p>
-
-        <div id="description">
-            <img src="ressources/quote.png" alt="quote" width="8%" id="quote1">
-            <div id="descText">
-                Je m’appelle Léo, je suis actuellement étudiant en première année de <a href="https://www.orientation.com/diplomes/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">BTS SIO SLAM</a> (solutions logicielles et applications métiers)
-                <br>Depuis mon plus jeune âge, j’ai toujours eu un intéret certain par l’informatique et les nouvelles technologies.
-                <br>Naturellement, je me suis tourné vers ces études en parallèle de travaux et recherches personnelles.
+        <div class="header_gauche">
+            <h1>ÉTUDIANT EN INFORMATIQUE</h1>
+            <div>
+                Je m’appelle <span>Léo</span> , je suis actuellement étudiant en première année de <span>BTS SIO SLAM</span> (solutions logicielles et applications métiers). 
+                Depuis mon plus jeune âge, j’ai toujours eu un <span>intéret certain pour l’informatique et les nouvelles technologies.</span> 
+                Naturellement, je me suis tourné vers ces études en parallèle de travaux et recherches personnelles.
             </div>
-            <img src="ressources/quote.png" alt="quote" width="8%">
-
+            <button class="consultCv">CONSULTER MON CV</button>
+            <button class="voirInfos">EN SAVOIR PLUS</button>
         </div>
-        <div id="btn">
-            <button onclick="location.href='ressources/CV_Leo.pdf'" id="pdfBtn"><img src="ressources\id-card.png" alt="visual" width="25px" height="25px" id="btnIcon"> <p>CV</p></button>
+        <div class="header_droit">
+            <img src="ressources/developer-activity-concept-illustration/4136918.jpg" alt="illustration" height="800" width="800">
         </div>
-    </section>
+    </header>
+    <!-- Header -->
+    
+    <!-- footer -->
+    <footer>
+        <p>Léo Dumas</p>
+        <p>© 2022 Tous droits réservés</p>
+    </footer>
+    <!-- footer -->
 </body>
 </html>
