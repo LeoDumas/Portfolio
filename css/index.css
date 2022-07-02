@@ -126,3 +126,41 @@ footer p:first-child{
     margin-top: 10px;
     margin-bottom: -2px;
 }
+
+/* Responsive */
+@media screen and (max-width : 1000px) {
+    .logo{
+        font-size: 150%;
+    }
+
+    .onglets .link{
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header_droit img{
+        display: none;
+    }
+    
+    .header_gauche{
+        width: 100%;
+    }
+    
+    .header_gauche h1{
+        font-size: 350%;
+        width: 60%;
+    }
+
+    .header_gauche div{
+        width: 80%;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .header_gauche button{
+        font-size: 14px;
+        height: 56px;
+        width: 220px;
+    }
+}
